@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://baiyao:3306/carplatform?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
+    url: jdbc:mysql://baiyao:3306/idm?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
     username: root
     password: 123456
 
@@ -24,7 +24,7 @@ server:
   max-http-header-size: 100000
   port: 8081
   servlet:
-    context-path: /carplatform
+    context-path: /idm
     # Session 过期时间，单位秒，小于60秒会取1分钟（设置3小时）
     session:
       timeout: 10800
@@ -42,4 +42,4 @@ nacos:
     username: nacos
     password: nacos
 log:
-  filePath: carplatform
+  filePath: idm
