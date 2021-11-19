@@ -29,5 +29,4 @@ public class UserController {
     public ResponseEntity<?> getCurrentUser(HttpServletRequest request) {
         return userService.getCurrentUser(request);
     }
-
 }

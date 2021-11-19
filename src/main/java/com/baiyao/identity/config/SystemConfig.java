@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 @NacosConfigurationProperties(prefix = "data", autoRefreshed = true, type = ConfigType.YAML, dataId = "system-config.yaml")
 public class SystemConfig {
 
-    private String userSession;
+     String userSession;
 
-    private String userToken;
+     String userToken;
 }
